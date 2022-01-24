@@ -1,23 +1,21 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Getting Started"
+    - title: "Getting-Started"
       url: "docs/getting-started"
+    - title: "WIKI"
+      url: "docs/wiki"
       children:
-        - title: Features
-          url: "docs/getting-started#getting-started"
-        - title: Development
-          url: "docs/getting-started#development"
-        - title: Customization
-          url: "docs/getting-started#customization"
-    - title: "About"
-      url: "about"
-    - title: "News"
-      url: "news"
-- title: "Extras"
-  url: "docs/extras"
-  links:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
-    - title: Tags Page
-      url: "tags"
+        - title: 기술1
+          url: "docs/tech1"
+        - title: 기술2
+          url: "docs/tech2"
+    - title: "Release Note"
+      url: "release-note"
+# - title: "Extras"
+#   url: "docs/extras"
+#   links:
+#     - title: Quizzes
+#       url: "docs/extras/example-quiz"
+#     - title: Tags Page
+#       url: "tags"
