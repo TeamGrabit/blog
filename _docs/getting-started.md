@@ -8,6 +8,10 @@ description: Getting started with Docsy Jekyll
 
 # Getting Started
 
+`bundle update jekyll`
+`bundle add webrick`
+`bundle exec jekyll`
+
 ## Features
 
 ### User Interaction
