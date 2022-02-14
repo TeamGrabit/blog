@@ -5,7 +5,7 @@ permalink: /about/
 
 # About
 
- See the [respository]({{ site.repo }}) for more details.
+작성 좀 해 조
 <!-- TODO: About 페이지 작성 -->
 
 ## Support

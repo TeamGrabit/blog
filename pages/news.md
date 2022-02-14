@@ -3,7 +3,7 @@ title: Release Note
 permalink: /release-note/
 ---
 
-# News
+# Release Notes
 
 <p>_posts에 작성</p>
 

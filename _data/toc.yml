@@ -7,9 +7,9 @@
       url: "docs/wiki"
       children:
         - title: 기술1
-          url: "docs/tech1"
+          url: "docs/wiki/tech1"
         - title: 기술2
-          url: "docs/tech2"
+          url: "docs/wiki/tech2"
     - title: "Release Note"
       url: "release-note"
 # - title: "Extras"
