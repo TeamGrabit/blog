@@ -5,7 +5,7 @@ permalink: /release-note/
 
 # Release Notes
 
-<p>_posts에 작성</p>
+<p>릴리즈는 깃허브에서도 보실 수 있어요(❁´◡`❁)</p>
 
 <br>
 

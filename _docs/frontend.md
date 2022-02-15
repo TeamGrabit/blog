@@ -1,5 +1,5 @@
 ---
-title: wiki
+title: frontend wiki
 tags: 
  - jekyll
  - github

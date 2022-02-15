@@ -6,8 +6,7 @@ permalink: /docs/
 
 # Documentation
 
-Welcome to the {{ site.title }} Documentation pages! Here you can quickly jump to a 
-particular page.
+🎈이곳에선 특정 페이지를 바로 갈 수 있는 링크를 제공하고 있어요.
 
 <div class="section-index">
     <hr class="panel-line">

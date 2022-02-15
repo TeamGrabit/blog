@@ -1,15 +1,23 @@
 - title: Documentation
   url: docs
   links:
-    - title: "Getting-Started"
-      url: "docs/getting-started"
-    - title: "WIKI"
-      url: "docs/wiki"
+    - title: "Contributing"
+      url: "docs/0contributing"
+    - title: "Frontend WIKI"
+      url: "docs/frontend"
       children:
         - title: 기술1
-          url: "docs/wiki/tech1"
-        - title: 기술2
-          url: "docs/wiki/tech2"
+          url: "docs/frontend/tech1"
+    - title: "Backend WIKI"
+      url: "docs/backend"
+      children:
+        - title: 기술1
+          url: "docs/backend/tech1"
+    - title: "Infra WIKI"
+      url: "docs/infra"
+      children:
+        - title: 기술1
+          url: "docs/infra/tech1"
     - title: "Release Note"
       url: "release-note"
 # - title: "Extras"

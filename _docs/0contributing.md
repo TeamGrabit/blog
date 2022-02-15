@@ -1,12 +1,12 @@
 ---
-title: Getting Started
+title: Contributing
 tags: 
  - jekyll
  - github
-description: Getting started with Docsy Jekyll
+description: 포스팅 전 참고사항들입니다✨
 ---
 
-# Getting Started
+# 포스팅 할 때 읽어주세요😎
 
 * [포스팅 방법](#포스팅방법)
 * [개발 세팅](#개발세팅)
