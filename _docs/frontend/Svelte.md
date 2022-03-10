@@ -23,69 +23,75 @@ State of JS 2021의 설문을 살펴보면 Svelte에 대한 만족도와 관심�
 Svelte 공식 홈페이지를 보면 특징으로 'Write less code', 'No virtual Dom', 'Truly reactive'라고 소개를 합니다.
 
 ### Write less code
->```Svelte
+>
+```Svelte
 <!-- Svelte -->
 <script>
-	let a = 1;
-	let b = 2;
+    let a = 1;
+    let b = 2;
 </script>
->
+
 <input type="number" bind:value={a}>
 <input type="number" bind:value={b}>
->
+
 <p>{a} + {b} = {a + b}</p>
->```
+```
+>
 
 다음의 Svelte 코드를 React, Vue로 바꾸면 다음과 같습니다.
->```javascript
+>
+```javascript
 // React
 import React, { useState } from 'react';
->
-export default () => {
-	const [a, setA] = useState(1);
-	const [b, setB] = useState(2);
->
-	function handleChangeA(event) {
-		setA(+event.target.value);
-	}
->
-	function handleChangeB(event) {
-		setB(+event.target.value);
-	}
->
-	return (
-		<div>
-			<input type="number" value={a} onChange={handleChangeA}/>
-			<input type="number" value={b} onChange={handleChangeB}/>
->
-			<p>{a} + {b} = {a + b}</p>
-		</div>
-	);
-};
->```
 
->```Vue
+export default () => {
+    const [a, setA] = useState(1);
+    const [b, setB] = useState(2);
+	
+    function handleChangeA(event) {
+        setA(+event.target.value);
+    }
+
+    function handleChangeB(event) {
+        setB(+event.target.value);
+    }
+
+    return (
+        <div>
+            <input type="number" value={a} onChange={handleChangeA}/>
+            <input type="number" value={b} onChange={handleChangeB}/>
+
+            <p>{a} + {b} = {a + b}</p>
+        </div>
+    );
+};
+```
+>
+
+>
+```Vue
 <!-- Vue -->
 <template>
-	<div>
-		<input type="number" v-model.number="a">
-		<input type="number" v-model.number="b">
->
-		<p>{{a}} + {{b}} = {{a + b}}</p>
-	</div>
+    <div>
+        <input type="number" v-model.number="a">
+        <input type="number" v-model.number="b">
+
+        <p>{{a}} + {{b}} = {{a + b}}</p>
+    </div>
 </template>
->
+
 <script>
-	export default {
-		data: function() {
-			return {
-				a: 1,
-				b: 2
-			};
-		}
-	};
+    export default {
+        data: function() {
+            return {
+                a: 1,
+                b: 2
+            };
+        }
+    };
 </script>
->```
+```
+>
 
 **React**의 input 태그는 양방향 바인딩을 지원하지 않기 때문에 input 이벤트를 일일이 함수로 직접 반응해서 변수를 수정해주어야 합니다. 또한, React는 local component state를 update할 때, useState와 같은 hook을 사용함으로써 Svelte에 비해 훨씬 더 많은 코드를 요구하게 됩니다.
 
