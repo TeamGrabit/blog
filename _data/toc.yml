@@ -6,8 +6,8 @@
     - title: "Frontend WIKI"
       url: "docs/frontend"
       children:
-        - title: 기술1
-          url: "docs/frontend/tech1"
+        - title: Svelte
+          url: "docs/frontend/svelte"
     - title: "Backend WIKI"
       url: "docs/backend"
       children:
