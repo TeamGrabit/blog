@@ -18,8 +18,8 @@
       children:
         - title: 기술1
           url: "docs/infra/tech1"
-    - title: "Release Note"
-      url: "release-note"
+    - title: "Posts"
+      url: "posts"
 # - title: "Extras"
 #   url: "docs/extras"
 #   links:

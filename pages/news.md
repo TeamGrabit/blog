@@ -1,11 +1,11 @@
 ---
-title: Release Note
-permalink: /release-note/
+title: posts
+permalink: /posts/
 ---
 
-# Release Notes
+# Posts
 
-<p>릴리즈는 깃허브에서도 보실 수 있어요(❁´◡`❁)</p>
+<p>저희가 개발을 하며 공부한 내용들이에요(❁´◡`❁)</p>
 
 <br>
 
